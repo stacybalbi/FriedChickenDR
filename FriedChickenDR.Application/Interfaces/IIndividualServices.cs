@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FriedChickenDR.Application.Interfaces
 {
-    public interface IIndividualServices : IBaseCrudService<IndividualService>
+    public interface IIndividualServices : IBaseCrudService<Domain.Entities.IndividualService>
     {
     }
 }

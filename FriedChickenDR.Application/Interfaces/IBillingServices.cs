@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FriedChickenDR.Application.Interfaces
 {
-    public interface IBillingServices : IBaseCrudService<Billing>
+    public interface IBillingServices : IBaseCrudService<Domain.Entities.Billing>
     {
 
     }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FriedChickenDR.Application.Interfaces
 {
-    public interface IComboServices : IBaseCrudService<ComboService>
+    public interface IComboServices : IBaseCrudService<Domain.Entities.ComboService>
     {
     }
 }

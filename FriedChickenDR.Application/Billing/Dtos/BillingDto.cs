@@ -10,7 +10,7 @@ namespace FriedChickenDR.Application.Billing.Dtos
 {
     public class BillingDto : BaseDto
     {
-        public virtual ComboService Combo { get; set; }
+        public virtual Domain.Entities.ComboService Combo { get; set; }
         public int quantity { get; set; }
         public int total { get; set; }
     }
