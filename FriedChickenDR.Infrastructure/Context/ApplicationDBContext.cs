@@ -14,7 +14,7 @@ namespace FriedChickenDR.Infrastructure.Context
 
         public DbSet<Billing> Billing { get; set; }
         public DbSet<ComboService> ComboService { get; set; }
-        public DbSet<IndividualService> IndividualService { get; set; }
+        public DbSet<IndividualService> IndividualServiceDto { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -17,6 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FriedChickenDR.Application\FriedChickenDR.Application.csproj" />
+    <ProjectReference Include="..\FriedChickenDR.Domain\FriedChickenDR.Domain.csproj" />
     <ProjectReference Include="..\FriedChickenDR.Infrastructure\FriedChickenDR.Infrastructure.csproj" />
   </ItemGroup>
 
